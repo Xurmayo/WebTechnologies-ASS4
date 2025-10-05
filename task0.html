@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 0 – Responsive Typography</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    h1 { font-size: 32px; color: #333; }
+    p  { font-size: 18px; color: #555; max-width: 600px; margin: 0 auto 20px; }
+
+    a.button {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    a.button:hover { background-color: #45a049; }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      h1 { font-size: 20px; }
+      p  { font-size: 14px; }
+    }
+
+    /* Tablet */
+    @media (min-width: 601px) and (max-width: 900px) {
+      h1 { font-size: 26px; }
+      p  { font-size: 16px; }
+    }
+
+    /* Desktop */
+    @media (min-width: 901px) {
+      h1 { font-size: 32px; }
+      p  { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Typography Example</h1>
+  <p>
+    This page demonstrates how text changes size across devices.
+  </p>
+
+  <a class="button" href="index.html">⬅ Back to Main Page</a>
+  <a class="button" href="task1.html">Next → Task 1</a>
+</body>
+</html>

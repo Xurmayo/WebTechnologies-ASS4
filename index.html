@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Design Tasks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    a.button {
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #388e3c;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      a.button {
+        width: 100%;
+        max-width: 250px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Web Design – Media Queries & Bootstrap</h1>
+  <div class="buttons">
+    <a class="button" href="task0.html">Task 0 – Responsive Typography</a>
+    <a class="button" href="task1.html">Task 1 – Responsive Layout</a>
+    <a class="button" href="task2.html">Task 2 – Bootstrap Columns</a>
+    <a class="button" href="task3.html">Task 3 – Bootstrap Navbar</a>
+    <a class="button" href="task4.html">Task 4 – Responsive Portfolio Page</a>
+  </div>
+</body>
+</html>
